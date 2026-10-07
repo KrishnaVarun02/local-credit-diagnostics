@@ -1,0 +1,186 @@
+[
+  {
+    "n": 8,
+    "m": 64,
+    "runs": 100,
+    "success_rate": 0.15,
+    "success_ci": [
+      0.0930598528365663,
+      0.23283559590832364
+    ],
+    "observation_rate": 0.19,
+    "observation_ci": [
+      0.12514751509768735,
+      0.27778845379064376
+    ],
+    "theoretical_observation_rate": 0.22158039064455715,
+    "mean_regret": 0.77359375,
+    "regret_ci": [
+      0.7095013736569321,
+      0.8376861263430678
+    ],
+    "mean_mse": 0.004297176273726579,
+    "rank_deficient": 0
+  },
+  {
+    "n": 8,
+    "m": 256,
+    "runs": 100,
+    "success_rate": 0.08,
+    "success_ci": [
+      0.041093461484380624,
+      0.14998107700948735
+    ],
+    "observation_rate": 0.54,
+    "observation_ci": [
+      0.44264860323368227,
+      0.6343919169097589
+    ],
+    "theoretical_observation_rate": 0.6328402451084638,
+    "mean_regret": 0.8418359375,
+    "regret_ci": [
+      0.7927047625212784,
+      0.8909671124787215
+    ],
+    "mean_mse": 0.0038790388997678796,
+    "rank_deficient": 0
+  },
+  {
+    "n": 8,
+    "m": 1024,
+    "runs": 100,
+    "success_rate": 0.07,
+    "success_ci": [
+      0.03431926106727268,
+      0.137495147390735
+    ],
+    "observation_rate": 0.98,
+    "observation_ci": [
+      0.929988209271456,
+      0.9944980324498376
+    ],
+    "theoretical_observation_rate": 0.9818272653594924,
+    "mean_regret": 0.8539453125,
+    "regret_ci": [
+      0.8075688096197281,
+      0.900321815380272
+    ],
+    "mean_mse": 0.0038018458092459978,
+    "rank_deficient": 0
+  },
+  {
+    "n": 8,
+    "m": 4096,
+    "runs": 100,
+    "success_rate": 0.01,
+    "success_ci": [
+      0.0017674320641406505,
+      0.054486196178705315
+    ],
+    "observation_rate": 1.0,
+    "observation_ci": [
+      0.9630065017930143,
+      1.0
+    ],
+    "theoretical_observation_rate": 0.9999998909360707,
+    "mean_regret": 0.8994140625,
+    "regret_ci": [
+      0.8814954109018145,
+      0.9173327140981855
+    ],
+    "mean_mse": 0.003777151517672218,
+    "rank_deficient": 0
+  },
+  {
+    "n": 12,
+    "m": 64,
+    "runs": 100,
+    "success_rate": 0.03,
+    "success_ci": [
+      0.010254524024038925,
+      0.0845193642905276
+    ],
+    "observation_rate": 0.03,
+    "observation_ci": [
+      0.010254524024038925,
+      0.0845193642905276
+    ],
+    "theoretical_observation_rate": 0.01550544107641727,
+    "mean_regret": 0.961474609375,
+    "regret_ci": [
+      0.9281670298240835,
+      0.9947821889259164
+    ],
+    "mean_mse": 0.00037751517532486946,
+    "rank_deficient": 0
+  },
+  {
+    "n": 12,
+    "m": 256,
+    "runs": 100,
+    "success_rate": 0.08,
+    "success_ci": [
+      0.041093461484380624,
+      0.14998107700948735
+    ],
+    "observation_rate": 0.08,
+    "observation_ci": [
+      0.041093461484380624,
+      0.14998107700948735
+    ],
+    "theoretical_observation_rate": 0.060594105478801286,
+    "mean_regret": 0.9119140625,
+    "regret_ci": [
+      0.8589433900177383,
+      0.9648847349822616
+    ],
+    "mean_mse": 0.0002574001137013495,
+    "rank_deficient": 0
+  },
+  {
+    "n": 12,
+    "m": 1024,
+    "runs": 100,
+    "success_rate": 0.24,
+    "success_ci": [
+      0.16691325556948772,
+      0.33232336349814473
+    ],
+    "observation_rate": 0.24,
+    "observation_ci": [
+      0.16691325556948772,
+      0.33232336349814473
+    ],
+    "theoretical_observation_rate": 0.22122298754861836,
+    "mean_regret": 0.7533203125,
+    "regret_ci": [
+      0.6699312682389574,
+      0.8367093567610425
+    ],
+    "mean_mse": 0.000248394855774886,
+    "rank_deficient": 0
+  },
+  {
+    "n": 12,
+    "m": 4096,
+    "runs": 100,
+    "success_rate": 0.21,
+    "success_ci": [
+      0.141656540619153,
+      0.29979968834089865
+    ],
+    "observation_rate": 0.65,
+    "observation_ci": [
+      0.5525444329688796,
+      0.7363575175690247
+    ],
+    "theoretical_observation_rate": 0.6321654705556539,
+    "mean_regret": 0.783056640625,
+    "regret_ci": [
+      0.7035286934452933,
+      0.8625845878047067
+    ],
+    "mean_mse": 0.00024395133727417718,
+    "rank_deficient": 0
+  }
+]

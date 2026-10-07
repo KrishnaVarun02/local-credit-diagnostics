@@ -1,0 +1,79 @@
+{
+  "started_utc": "2026-10-01T06:40:40.479676+00:00",
+  "completed_utc": "2026-10-01T06:40:42.034158+00:00",
+  "runtime_seconds": 1.5544830419967184,
+  "protocol_version": "1.0-smoke",
+  "config": {
+    "protocol_version": "1.0-smoke",
+    "scaling_n": [
+      4,
+      8
+    ],
+    "main_kappa": 1.5,
+    "topologies": [
+      "additive",
+      "chain",
+      "ring",
+      "star",
+      "complete"
+    ],
+    "strength_n": 8,
+    "strength_kappa": [
+      0.5,
+      1.0,
+      1.5
+    ],
+    "sampling_n": [
+      8
+    ],
+    "sample_sizes": [
+      64,
+      256
+    ],
+    "seeds": 3,
+    "seed_offset": 20260900,
+    "anchor_weights": [
+      2.0,
+      16.0
+    ]
+  },
+  "config_sha256": "6f4e3ecfc5ffcf26639bb1847023e26668b5f52ad04a35979a79767678cd1dee",
+  "code_hashes": {
+    "src/__init__.py": "b71156a478bb0b3c9f775af04dc6a560d6aaba06bff2c0f50b853ce5c957b782",
+    "src/analyze.py": "641accb3f553a895fb5180e77ca2074e432c9785b580a9baa18be8971da447ff",
+    "src/games.py": "1894eac808ba2710e8bf179ca5c52df66445ee958057c9e6801d7599d9c10cc2",
+    "src/run.py": "a68eb5bda1c85577c6cf2a9694f4c5c035e31ea63793c5d1fc8ae1df3fee187b",
+    "tests/test_diagnostics.py": "4e53a585db871af7e823899d4c4fb4fe3e3576a72df2eaa82512235bda7d6656",
+    "configs/full.json": "89846200b5d8c5e68ba321718b5c44faaea2cf1368037ef413995defc36cf96e",
+    "configs/smoke.json": "6f4e3ecfc5ffcf26639bb1847023e26668b5f52ad04a35979a79767678cd1dee",
+    "docs/protocol.md": "f6ef569d97cf7f82a707fcdc59049011dfb17e2407d990c935097bdbbf80b86c",
+    "requirements.txt": "cd98a6a1c013bbc9da6e5d5b880fe02bdb374d19492f5cec2486860ec1f27230"
+  },
+  "hardware": {
+    "cpu": "arm",
+    "logical_cpus": 12,
+    "machine": "arm64",
+    "system": "Darwin",
+    "release": "25.6.0"
+  },
+  "environment": {
+    "python": "3.12.13",
+    "numpy": "2.5.3"
+  },
+  "counts": {
+    "exact": 29,
+    "sampling": 6,
+    "controls": 3
+  },
+  "failed_runs": [],
+  "excluded_runs": [],
+  "external_compute_cost": 0,
+  "artifact_hashes": {
+    "controls.csv": "f5491b4d023e34ecd23236770b8a0c2ef9355ceef02b5916447c4d07b82eb5c8",
+    "exact.csv": "070373a4f49e859d44866f1f71a870f0d3598516bb558b8e135191beb20fddd3",
+    "published_matrix.json": "df1a5125c3626ae6cac3d1d214027db0256ea35f996ef4fdee7622bf505a9d1b",
+    "sampling.csv": "bc139533ea7c7389246d452b51eae2e1991372871e2dc77e8f5d03e2cdea0da7"
+  },
+  "command": "python -m src.run --config configs/smoke.json --output results/pilot",
+  "git_commit": "No project commit existed at execution; exact source hashes above identify run code."
+}

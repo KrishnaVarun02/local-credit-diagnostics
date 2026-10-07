@@ -1,0 +1,39 @@
+{
+  "source": "https://papers.nips.cc/paper_files/paper/2020/file/73a427badebe0e32caa2e1fc7530b7f3-Paper.pdf",
+  "location": "Table 2 left, attributed there to Son et al. (QTRAN)",
+  "reward": [
+    [
+      8.0,
+      -12.0,
+      -12.0
+    ],
+    [
+      -12.0,
+      0.0,
+      0.0
+    ],
+    [
+      -12.0,
+      0.0,
+      0.0
+    ]
+  ],
+  "our_additive_projection": [
+    [
+      -6.222222222222221,
+      -4.8888888888888875,
+      -4.8888888888888875
+    ],
+    [
+      -4.8888888888888875,
+      -3.5555555555555554,
+      -3.5555555555555554
+    ],
+    [
+      -4.8888888888888875,
+      -3.5555555555555554,
+      -3.5555555555555554
+    ]
+  ],
+  "note": "Only the payoff matrix is reused; no neural algorithm reproduction is claimed."
+}

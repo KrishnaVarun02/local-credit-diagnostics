@@ -1,0 +1,13 @@
+{
+  "protocol_version": "1.0-smoke",
+  "scaling_n": [4, 8],
+  "main_kappa": 1.5,
+  "topologies": ["additive", "chain", "ring", "star", "complete"],
+  "strength_n": 8,
+  "strength_kappa": [0.5, 1.0, 1.5],
+  "sampling_n": [8],
+  "sample_sizes": [64, 256],
+  "seeds": 3,
+  "seed_offset": 20260900,
+  "anchor_weights": [2.0, 16.0]
+}

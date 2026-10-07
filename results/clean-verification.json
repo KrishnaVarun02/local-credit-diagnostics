@@ -1,0 +1,1 @@
+{"status": "passed", "reference": "results/full", "reproduction": "../../work/credit-clean/full", "verified_counts": {"exact": 96, "sampling": 800, "controls": 3}, "dataset_hashes_checked": 800}

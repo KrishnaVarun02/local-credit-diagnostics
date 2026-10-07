@@ -1,0 +1,5 @@
+# Preserve generated evidence bytes and their recorded checksums.
+*.csv -text -whitespace
+*.svg -text -whitespace
+*.pdf binary
+*.png binary

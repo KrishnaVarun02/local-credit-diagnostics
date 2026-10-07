@@ -1,0 +1,20 @@
+{
+  "date": "2026-10-01",
+  "python": "3.12.13",
+  "environment": "Same isolated scientific environment as the original run; not a separate clean install",
+  "checks": [
+    {
+      "command": "python -m pytest -q",
+      "exit_code": 0,
+      "stdout": ".................................                                        [100%]\n33 passed in 0.08s\n",
+      "stderr": ""
+    },
+    {
+      "command": "python -m src.verify --reference results/full --reproduction reproduction/full",
+      "exit_code": 0,
+      "stdout": "{\"status\": \"passed\", \"reference\": \"results/full\", \"reproduction\": \"reproduction/full\", \"verified_counts\": {\"exact\": 96, \"sampling\": 800, \"controls\": 3}, \"dataset_hashes_checked\": 800}\n",
+      "stderr": ""
+    }
+  ],
+  "independent_session_review": "A separate reviewing agent checked all33 tests, source and result hashes, theorem algebra, and independently regenerated and refitted all800 seeded datasets. It reported exact coefficient and metric agreement. This is computational review in the same AI-assisted session, not external peer review."
+}
